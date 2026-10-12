@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { font: 14px system-ui, sans-serif; width: 240px; padding: 14px; margin: 0; }
+  h1 { font-size: 15px; margin: 0 0 10px; }
+  button { width: 100%; padding: 10px; font-size: 14px; border: 0; border-radius: 6px; cursor: pointer; color: #fff; }
+  .off { background: #188038; } .on { background: #d93025; }
+  #status, #test { margin-top: 10px; color: #555; font-size: 12px; word-break: break-all; }
+  a { font-size: 12px; } .row { display: flex; justify-content: space-between; margin-top: 10px; }
+</style>
+<h1>My Proxy Switch</h1>
+<button id="toggle"></button>
+<div id="status"></div>
+<div id="test"></div>
+<div class="row"><a href="#" id="check">Test connection</a><a href="#" id="opts">Settings</a></div>
+<script src="popup.js"></script>

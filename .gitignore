@@ -1,0 +1,20 @@
+# Sensitive credentials
+**/config.json
+!**/config.example.json
+
+# Runtime logs
+*.log
+**/*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Node
+node_modules/
+.npm/
+
+# IDE / Editor
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "My Proxy Switch",
+  "version": "1.0.0",
+  "description": "Route all Chrome traffic through my SOCKS5 proxy (via local relay).",
+  "permissions": ["proxy", "storage", "privacy"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "My Proxy Switch", "default_popup": "popup.html" },
+  "options_page": "options.html"
+}

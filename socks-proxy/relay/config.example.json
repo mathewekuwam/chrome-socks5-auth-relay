@@ -1,0 +1,9 @@
+{
+  "listenHost": "127.0.0.1",
+  "listenPort": 1080,
+  "upstreamHost": "YOUR.PROXY.HOST",
+  "upstreamPort": 1080,
+  "username": "YOUR_USERNAME",
+  "password": "YOUR_PASSWORD",
+  "resolveLocally": false
+}

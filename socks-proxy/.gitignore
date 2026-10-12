@@ -1,0 +1,20 @@
+# Sensitive credentials (never commit your real proxy passwords or IPs!)
+relay/config.json
+config.json
+
+# Runtime logs
+*.log
+relay/relay.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Node
+node_modules/
+.npm/
+
+# IDE / Editor
+.vscode/
+.idea/
